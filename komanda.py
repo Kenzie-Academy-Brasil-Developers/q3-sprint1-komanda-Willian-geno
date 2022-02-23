@@ -45,5 +45,5 @@ def calculate_tab (table):
             if i["id"] == j["id"]:
                 total = total + (j["price"] * i["amount"])
 
-    retrun total;
+    return total;
 
